@@ -30,6 +30,18 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+    .logo img {
+  width: 80px;
+  border-radius: 50%;
+  animation: rotateLogo 30s linear infinite;
+}
+
+@keyframes rotateLogo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+  </style>
 
 <body>
     <!-- Spinner Start -->
@@ -44,6 +56,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
+        <div class="logo me-3">
+        <img src="img/logo.jpg" alt="Logo" class="img-fluid">
+      </div>
         <a href="index.html" class="navbar-brand ps-5 me-0">
             <h1 class="text-white m-0">Novaterra Ventures </h1>
         </a>
@@ -526,7 +541,7 @@ Aligned with the Government of Rwanda’s strategic vision, Novaterra Ventures L
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/neza00.jpg" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -732,8 +747,8 @@ Aligned with the Government of Rwanda’s strategic vision, Novaterra Ventures L
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <!-- <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a> -->
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Business Hours</h5>
